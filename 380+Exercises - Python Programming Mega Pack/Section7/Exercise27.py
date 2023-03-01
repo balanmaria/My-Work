@@ -1,0 +1,17 @@
+#TODO:The following variables are given (var1 - empty string, var2 - space, var3 - newline character):
+# var1 = ''
+# var2 = ' '
+# var3 = '\n'
+# Print each type of variable on a separate line to the console as shown below.
+
+
+var1 = ''
+var2 = ' '
+var3 = '\n'
+
+for i in range(1,4):
+    print(type(f"var{i}"))
+
+print(type(var1))
+print(type(var2))
+print(type(var3))
