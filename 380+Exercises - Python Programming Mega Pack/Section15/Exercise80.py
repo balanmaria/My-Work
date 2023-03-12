@@ -1,0 +1,9 @@
+#TODO: The following variable is given:
+# number = 1.0
+# Test whether the variable is an instance of the built-in class int. Print 'YES' if true, 'NO' if false.
+
+number = 1.0
+if isinstance(number,int):
+    print("YES")
+else:
+    print("NO")
